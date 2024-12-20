@@ -47,6 +47,16 @@ Quality is 80 and it never alters.
 ## Getting Started
 
 Clone the repository. Open it in IntelliJ. Run it. It needs a bit more work to add an empty test.
+### Building and testing
+For linux based systems makefile can be utilised.
+```shell
+make clean build test
+```
+alternatively the gradle commands can be used
+
+```shell
+./gradlew clean build test
+```
 
 ## Who, What, Why?
 
